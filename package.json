@@ -1,0 +1,22 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "![Github license](http://img.shields.io/badge/license-MIT-blue.svg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwimbish2022/Note-Taker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwimbish2022/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/kwimbish2022/Note-Taker#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
