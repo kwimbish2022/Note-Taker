@@ -2,7 +2,7 @@
   "name": "note-taker",
   "version": "1.0.0",
   "description": "![Github license](http://img.shields.io/badge/license-MIT-blue.svg)",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kwimbish2022/Note-Taker#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "uuid": "^8.3.2"
   }
 }

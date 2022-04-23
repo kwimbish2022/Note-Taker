@@ -13,7 +13,6 @@ JSON
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
-* [Tests](#tests)
 * [Questions](#questions)
 
 ## Installation
@@ -24,11 +23,11 @@ Clone the repo from Github and make sure to download the appropriate items (ex N
 
 https://kwimbish2022.github.io/Note-Taker/
 
-//<img src="https://github.com/kwimbish2022/Team-Profile-Generator/blob/main/assets/ScreenshotHTML.png" >
+<!-- <img src="https://github.com/kwimbish2022/Team-Profile-Generator/blob/main/assets/ScreenshotHTML.png" >
 
 //<img src="https://github.com/kwimbish2022/Team-Profile-Generator/blob/main/assets/ScreenshotNODEindexjs.png" >
 
-//<img src="https://github.com/kwimbish2022/Team-Profile-Generator/blob/main/assets/ScreenshotTDDTest.png" >
+//<img src="https://github.com/kwimbish2022/Team-Profile-Generator/blob/main/assets/ScreenshotTDDTest.png" > -->
 
 ## License
 MIT
@@ -36,9 +35,7 @@ MIT
 ## Contributing
 Me, Myself, and I.
 Research via MDN and our all time fave Google.
-
-## Tests
-//
+Base starter code and css from Wash U bootcamp course.
 
 ## Questions
 kwimbish@hotmail.com or https://github.com/kwimbish2022
