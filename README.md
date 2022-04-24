@@ -22,9 +22,9 @@ Clone the repo from Github and make sure to download the appropriate items (ex N
 
 https://kwimbish2022.github.io/Note-Taker/
 
-<img src="https://github.com/kwimbish2022/Note-Taker/blob/main/assets/Screenshot2.png" >
+<img src="https://github.com/kwimbish2022/Note-Taker/blob/main/public/assets/Screenshot2.png" >
 
-<img src="https://github.com/kwimbish2022/Note-Taker/blob/main/assets/Screenshot1.png" >
+<img src="https://github.com/kwimbish2022/Note-Taker/blob/main/public/assets/Screenshot1.png" >
 
 ## License
 MIT
