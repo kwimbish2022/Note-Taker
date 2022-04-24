@@ -1,18 +1,25 @@
-const express = require('express');
+// to assign the port
+const port = 3001;
+
+// to import/run
+const fs = require('fs');
 const path = require('path');
-const allNote = require('/db/db.json');
+const express = require('express');
 
 // to initialize
 const app = express();
-// to assign the port
-const port = 3001;
-// to import
-const fs = require('fs');
+
+const allNote = require('./db/db.json');
 
 // make sure to use these!!! https://expressjs.com/en/api.html app.use, express.urlencoded, express.json, express.static.
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
+
+// API get
+app.get('/api/notes', (req, res) => {
+    res.json(allNote.slice(1));
+});
 
 // HTML routes, to get the html to link and work...
 app.get('/', (req, res) => {
@@ -25,11 +32,6 @@ app.get('/notes', (req, res) => {
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, './public/index.html'))
-});
-
-// API get
-app.get('/api/notes', (req, res) => {
-  res.json(allNote.slice(1));
 });
 // end get
 
@@ -44,7 +46,8 @@ function createNew(body, noteArray) {
   noteArray[0]++;
 
   noteArray.push(newNote);
-  fs.writeFileSync(path.join(__dirname, '/db/db.json'),
+  fs.writeFileSync(
+    path.join(__dirname, './db/db.json'),
     JSON.stringify(noteArray, null, 2)
   );
   return newNote;
@@ -64,7 +67,7 @@ function deleteNote(id, noteArray) {
     if (note.id == id) {
       noteArray.splice(i, 1);
       fs.writeFileSync(
-        path.join(__dirname, '/db/db.json'),
+        path.join(__dirname, './db/db.json'),
         JSON.stringify(noteArray, null, 2)
       );
 
@@ -73,11 +76,13 @@ function deleteNote(id, noteArray) {
   }
 };
 
-app.get('/api/notes/:id', (req, res) => {
+app.delete('/api/notes/:id', (req, res) => {
     deleteNote(req.params.id, allNote);
     res.json(true);
 });
 // end delete
 
 // to link/listen to the port...
-app.listen(port, () => console.log(`Listening on port ${port}`));
+app.listen(port, () => {
+  console.log(`Listening on port ${port}`);
+});
