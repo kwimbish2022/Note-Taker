@@ -20,14 +20,11 @@ Clone the repo from Github and make sure to download the appropriate items (ex N
 
 ## Usage
 
-
 https://kwimbish2022.github.io/Note-Taker/
 
-<!-- <img src="https://github.com/kwimbish2022/Team-Profile-Generator/blob/main/assets/ScreenshotHTML.png" >
+<img src="https://github.com/kwimbish2022/Note-Taker/blob/main/assets/Screenshot2.png" >
 
-//<img src="https://github.com/kwimbish2022/Team-Profile-Generator/blob/main/assets/ScreenshotNODEindexjs.png" >
-
-//<img src="https://github.com/kwimbish2022/Team-Profile-Generator/blob/main/assets/ScreenshotTDDTest.png" > -->
+<img src="https://github.com/kwimbish2022/Note-Taker/blob/main/assets/Screenshot1.png" >
 
 ## License
 MIT
