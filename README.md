@@ -20,7 +20,7 @@ Clone the repo from Github and make sure to download the appropriate items (ex N
 
 ## Usage
 
-https://kwimbish2022.github.io/Note-Taker/
+https://kwimbish2022-note-taker.herokuapp.com/
 
 <img src="https://github.com/kwimbish2022/Note-Taker/blob/main/public/assets/Screenshot2.png" >
 
