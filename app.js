@@ -1,5 +1,5 @@
 // to assign the port
-const port = 3001;
+const PORT = process.env.PORT || 3001;
 
 // to import/run
 const fs = require('fs');
@@ -83,6 +83,6 @@ app.delete('/api/notes/:id', (req, res) => {
 // end delete
 
 // to link/listen to the port...
-app.listen(port, () => {
-  console.log(`Listening on port ${port}`);
+app.listen(PORT, () => {
+  console.log(`Listening on port ${PORT}`);
 });
